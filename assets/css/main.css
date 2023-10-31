@@ -1,0 +1,14 @@
+@import url("https://use.typekit.net/frd5vki.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "TT Travels Next", system-ui, sans-serif;
+  }
+  .transition-smooth {
+    transition: all 0.2s ease-in-out;
+  }
+}
